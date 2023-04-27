@@ -11,14 +11,14 @@ function Footer() {
       <footer>
         <Container>
           <Row>
-            <Col sm={6}>
+            <Col lg="6" md="12" sm="12">
               <img className="img-footer" src={edsLogo} alt="" />
               <p className="footer-item">
                 Jl. Watugede No.58, Wonorejo, Sariharjo, Kec. Ngaglik, Kabupaten
                 Sleman, Daerah Istimewa Yogyakarta 55581
               </p>
             </Col>
-            <Col sm={2} xs={6}>
+            <Col lg="2" md="4" sm="12">
               <div className="footer-item">
                 <h4 className="footer-header">Progam</h4>
                 <ul>
@@ -34,8 +34,7 @@ function Footer() {
                 </ul>
               </div>
             </Col>
-
-            <Col sm={2} xs={6}>
+            <Col lg="2" md="4" sm="12">
               <div className="footer-item">
                 <h4 className="footer-header">Bidang Ilmu</h4>
                 <ul>
@@ -54,8 +53,7 @@ function Footer() {
                 </ul>
               </div>
             </Col>
-
-            <Col sm={2} xs={6}>
+            <Col lg="2" md="4" sm="12">
               <div className="footer-item">
                 <h4 className="footer-header">Tentang Edspert</h4>
                 <ul>
@@ -73,7 +71,7 @@ function Footer() {
             </Col>
           </Row>
           <Row>
-            <Col sm={12} className="text-center cp-text">
+            <Col sm="12" className="text-center cp-text">
               <p>© {new Date().getFullYear()} | mzfais </p>
             </Col>
           </Row>
