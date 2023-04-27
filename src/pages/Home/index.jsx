@@ -1,5 +1,6 @@
 import Header from "../../components/Navbar";
 import Hero from "../../components/Hero";
+import Footer from "../../components/Footer";
 
 function Home() {
   const navBarList = [
@@ -11,6 +12,7 @@ function Home() {
     <div>
       <Header navbars={navBarList} />
       <Hero />
+      <Footer />
     </div>
   );
 }
