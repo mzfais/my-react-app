@@ -7,3 +7,23 @@
     font-weight: 600;
     border: none;
 }
+
+.buy-btn {
+    color: white;
+    background: #E30613;
+    letter-spacing: 0.9px;
+    font-weight: 400;
+    padding: 10px 30px 10px 30px;
+    font-size: 13px;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.buy-btn:hover {
+    background: #3CCF4E;
+    color: white;
+}
