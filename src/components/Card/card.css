@@ -1,16 +1,11 @@
 .card-content {
     color: #6e6e6e;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 1.5;
     word-break: keep-all;
     text-overflow: ellipsis;
     overflow: hidden;
-    margin-bottom: 4px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    text-align: left;
 }
 
 .card-tittle {
@@ -36,7 +31,7 @@
 }
 
 .card-info-1 {
-    padding-right: 10px;
+    width: 50px;
     color: #6e6e6e;
     font-weight: 300;
     font-size: 13px;

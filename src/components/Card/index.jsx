@@ -10,15 +10,15 @@ const CardItem = ({ image, title, date, mentor, price, promo }) => {
       <Card className="mt-4">
         <Card.Img variant="top" src={image} />
         <Card.Body>
-          <h3 className="card-title">{title}</h3>
-          <p className="card-content">
+          <Card.Title>{title}</Card.Title>
+          <Card.Text className="card-content">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
             blanditiis ad fugiat. Earum dicta, mollitia illum totam fugiat
             placeat animi nostrum molestias hic laboriosam vitae obcaecati
             cumque rerum maxime facere.
-          </p>
+          </Card.Text>
           <div className="d-flex justify-content-start mt-2">
-            <span className="card-info-1">Batc</span>
+            <span className="card-info-1">Batch</span>
             <span className="card-info-2">{date}</span>
           </div>
           <div className="d-flex justify-content-start">
