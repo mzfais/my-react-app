@@ -1,0 +1,9 @@
+.sign-in-btn {
+    background: #FF6161;
+    border-radius: 50px;
+    padding: 10px 24px 10px 24px;
+    font-size: 14px;
+    gap: 10px;
+    font-weight: 600;
+    border: none;
+}
