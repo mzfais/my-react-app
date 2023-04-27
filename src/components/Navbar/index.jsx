@@ -5,7 +5,6 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import MyButton from "./../Button";
 
 function Header({ navbars }) {
-  const btnOptions = { className: "sign-in-btn", text: "Masuk/Daftar" };
   return (
     <Navbar className="navbar-app p-3" expand="lg" variant="dark">
       <Container>
@@ -23,7 +22,7 @@ function Header({ navbars }) {
               );
             })}
           </Nav>
-          <MyButton options={btnOptions} />
+          <MyButton btnClassName={"sign-in-btn"} btnText={"Masuk/Daftar"} />
         </Navbar.Collapse>
       </Container>
     </Navbar>
