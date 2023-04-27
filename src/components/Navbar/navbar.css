@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');
+
+#root {
+    font-family: 'Be Vietnam', 'Be Vietnam Pro';
+}
+
+.navbar-app {
+    background: #152A46;
+    opacity: 0.9;
+}
+
+.logo {
+    height: 29px;
+    /* width: 10%; */
+}
+
+
+
+.sign-in-btn:hover {
+    background-color: #d64141;
+}
+
+
+@media (max-width: 575.98px) {
+    .logo {
+        width: 35%;
+    }
+}
