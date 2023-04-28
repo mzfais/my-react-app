@@ -1,12 +1,12 @@
 import React from "react";
 import "./hero.css";
 import heroImg from "../../assets/images/hero_lady.png";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 function Hero() {
   return (
-    <section className="hero">
-      <Container>
+    <section className="section hero m-0 pb-4">
+      <div className="bg-overlay m-0 px-5 w-100">
         <Row>
           <Col lg={5} sm={12}>
             <h1 className="hero-title">Jadi expert bersama edspert.id</h1>
@@ -19,7 +19,7 @@ function Hero() {
             <img className="hero-img" src={heroImg} alt="" />
           </Col>
         </Row>
-      </Container>
+      </div>
     </section>
   );
 }
