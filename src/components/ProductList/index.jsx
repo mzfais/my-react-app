@@ -10,21 +10,11 @@ const ProductListCard = ({ productList }) => {
       <Container>
         <Row>
           {productList.map((item, idx) => {
-            return (
-              <CardItem
-                image={item.image}
-                title={item.title}
-                date={item.tanggal}
-                mentor={item.mentor}
-                price={item.hg_asli}
-                promo={item.hg_promo}
-                key={idx}
-              />
-            );
+            return <CardItem item={item} key={idx} />;
           })}
         </Row>
         <Row>
-          <Col md="12">
+          <Col md={12}>
             <MyPagination />
           </Col>
         </Row>
