@@ -1,6 +1,17 @@
+.section {
+    position: relative;
+}
+
 .hero {
+    background-size: cover;
+    background-position: bottom;
+    background: #EFF4FA;
+}
+
+.bg-overlay {
     background: #152A46;
     opacity: 0.9;
+    margin: 0;
 }
 
 .hero .hero-title {
