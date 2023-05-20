@@ -1,7 +1,7 @@
 import React from "react";
 import "./productlist.css";
-import CardItem from "./../Card";
-import MyPagination from "./../Pagination";
+import CardItem from "../Card";
+import MyPagination from "../Pagination";
 import { Col, Container, Row } from "react-bootstrap";
 
 const ProductListCard = ({ productList }) => {
